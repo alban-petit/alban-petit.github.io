@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Alban Petit"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD student in NLP at LISN, Paris-Saclay"
+  avatar           : "/assets/images/profile.jpeg"
+  bio              : "PhD student in NLP at LISN, University of Paris-Saclay, France"
   location         : "Orsay, France"
   email            :
   links:

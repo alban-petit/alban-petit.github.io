@@ -1,10 +1,8 @@
 ---
-permalink: /publications/
 title: "Publications"
-excerpt: "Publications"
+permalink: /publications/
 author_profile: true
 ---
-
 
 ### Publications
 

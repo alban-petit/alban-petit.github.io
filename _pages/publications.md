@@ -1,9 +1,7 @@
 ---
+permalink: /publications/
 title: "Publications"
-categories:
-  - Publications
-tags:
-  - Publications
+excerpt: "Publications"
 ---
 
 

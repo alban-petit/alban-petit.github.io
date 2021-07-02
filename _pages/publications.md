@@ -2,7 +2,6 @@
 permalink: /publications/
 title: "Publications"
 excerpt: "Publications"
-layout: home
 ---
 
 

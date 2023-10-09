@@ -4,44 +4,48 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].about_me | default: "About me" }}</h3>
 
-Test
+I am a PhD student working at LISN, CNRS, Université Paris-Saclay. 
+I am honored to be advised by <a href="https://fyvo.github.io/"> François Yvon </a> and co-advised by <a href="https://caio-corro.fr/"> Caio Corro </a>.
+Before that, I received my Bachelor's degree in Computer Science and my Master's degree in Artificial Intelligence from Université Paris-Saclay.
+<br><br>
+My research interests lie in Natural Language Processing, especially in Semantic Parsing.
+
 
 <h3 id="publications" class="archive__subtitle">{{ site.data.ui-text[site.locale].publications | default: "Publications" }}</h3>
 
-3. Un algorithme d'analyse sémantique fondée sur les graphes via le problème de l'arborescence généralisée couvrante  
-Alban Petit, Caio Corro  
-TALN 2022 - Conférence sur le Traitement Automatique des Langues Naturelles
-
-2. Preventing posterior collapse in variational autoencoders for text generation via decoder regularization  
-Alban Petit, Caio Corro  
-NeurIPS 2021 Workshop - Deep Generative Models and Downstream Applications  
-\[[Paper](https://www.arxiv.org/abs/2110.14945 "Paper2")\]
-
-1. Auto-encodeurs variationnels : contrecarrer le problème de posterior collapse grâce à la régularisation du décodeur  
-Alban Petit, Caio Corro  
-TALN 2021 - Conférence sur le Traitement Automatique des Langues Naturelles  
-\[[Paper - ACL Anthology](https://www.aclanthology.org/2021.jeptalnrecital-taln.1 "Paper1a")\] \[[Paper - HAL](https://hal.archives-ouvertes.fr/hal-03265886/document "Paper1b")\]
+<ul>
+	<li> 5. Structural generalization in COGS: Supertagging is (almost) all you need <br>
+		 <b> Alban Petit</b>, Caio Corro, François Yvon <br>
+		 EMNLP 2023 - Conference on Empirical Methods in Natural Language Processing <br>
+		 (to appear)
+	</li>
+	<li> 4. On graph-based reentrancy-free semantic parsing <br>
+		 <b> Alban Petit</b>, Caio Corro <br>
+		 TACL 2023 - Transactions of the Association for Computational Linguistics <br>
+		 <a href="https://aclanthology.org/2023.tacl-1.41/"> paper </a>
+	</li>
+	<li> 3. Un algorithme d'analyse sémantique fondée sur les graphes via le problème de l'arborescence généralisée couvrante <br>
+		 <b> Alban Petit</b>, Caio Corro <br>
+		 TALN 2022 - Conférence sur le Traitement Automatique des Langues Naturelles <br>
+		 <a href="https://aclanthology.org/2022.jeptalnrecital-taln.22"> paper </a>
+	</li>
+	<li> 2. Preventing posterior collapse in variational autoencoders for text generation via decoder regularization <br>
+		 <b> Alban Petit</b>, Caio Corro <br>
+		 NeurIPS 2021 Workshop - Deep Generative Models and Downstream Applications <br>
+		 <a href="https://www.arxiv.org/abs/2110.14945"> paper </a>
+	</li>
+	<li> 1. Auto-encodeurs variationnels : contrecarrer le problème de posterior collapse grâce à la régularisation du décodeur <br>
+		 <b> Alban Petit</b>, Caio Corro <br>
+		 TALN 2021 - Conférence sur le Traitement Automatique des Langues Naturelles <br>
+		 <a href="https://www.aclanthology.org/2021.jeptalnrecital-taln.1"> paper </a>
+	</li>
+</ul>
 
 <h3 id="experiences" class="archive__subtitle">{{ site.data.ui-text[site.locale].experiences | default: "Experiences" }}</h3>
 
-Test
+Todo
 
 
 

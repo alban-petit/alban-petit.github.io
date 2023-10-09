@@ -51,6 +51,8 @@ en: &DEFAULT_EN
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
   about_me                   : "About me"
+  publications               : "Publications"
+  experiences                : "Experiences"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

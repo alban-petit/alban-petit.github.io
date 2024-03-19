@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Alban Petit"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "PhD student at LISN, Université Paris-Saclay, France"
-  location         : "Orsay, France"
+  bio              : "AI Research Engineer at Konverso"
+  location         : "Boulogne-Billancourt, France"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:alban.petit@lisn.upsaclay.fr"
+      url: "mailto:alban.petit@konverso.ai"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=QTapFDgAAAAJ&hl=en"
